@@ -20,7 +20,15 @@ OUT what our product will not do:
 
 
 ### Minimum Viable Product
+Our minimum viable product will be a homepage that allows a user to select a piece of gear they want to learn more about. This will then take them to a new page all about that piece of gear. On the homepage, the user will also have the option to take a quiz, and select answers that best apply to them. The quiz will then return an output of personalized snowgear derived from the user's answers. 
 
 ### Stretch 
+- Adding animated CSS to our webpage
+- Quiz progress bar 
+- Counter for page visits. 
+- Embed a video background for quiz results
 
 ### Functional Requirements 
+- a user will be able to review information on a particular piece of snow gear
+- a user will be able to take a quiz that will then suggest specific snowgear tailored to their responses 
+- a user will be able to compare a budget option versus a more high end option for their snow gear
