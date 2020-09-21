@@ -26,6 +26,7 @@ Our minimum viable product will be a homepage that allows a user to select a pie
 - Adding animated CSS to our webpage
 - Quiz progress bar 
 - Counter for page visits. 
+- Embed a video background for quiz results
 
 ### Functional Requirements 
 - a user will be able to review information on a particular piece of snow gear
