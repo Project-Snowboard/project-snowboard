@@ -81,14 +81,6 @@ h1 {
     border:solid 6px #efefd0ff;
 }
 
-a:link {
-    text-decoration: none;
-    color: #efefd0ff
-}
-
-a:visited {
-    color: #efefd0ff
-}
 
 #weight {
     border-radius: 15px;
@@ -141,4 +133,37 @@ a:visited {
     font-size: 40px;
     color: #ff6b35ff;
     box-shadow: 10px 15px 12px -3px rgb(184, 166, 154);
+}
+
+input {
+    border-radius: 15px;
+    text-align: center;
+    color: #efefd0ff;
+    font-family: 'Anton', sans-serif;
+    border:solid 6px #ff6b35ff;
+    border-radius: 15px;
+    font-size: 40px;
+    background: #ff6b35ff;
+    box-shadow: 10px 15px 12px -3px rgb(184, 166, 154);
+}
+
+input:hover {
+    transform: translateY(-12px) translateX(-12px);
+}
+input:active {
+    box-shadow: 10px 15px 12px -3px rgb(184, 166, 154);
+    transform: translateY(-6px) translateX(-6px);
+}
+
+select {
+    border: 6px solid black;
+}
+
+a:link {
+    text-decoration: none;
+    color: #efefd0ff
+}
+
+a:visited {
+color: #efefd0ff
 }

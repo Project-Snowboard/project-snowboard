@@ -145,3 +145,11 @@ a:link {
 a:visited {
     color: #ff6b35ff;
 }
+
+a.white:link {
+    text-decoration: none;
+    color: #efefd0ff;
+}
+a.white:visited {
+    color: #efefd0ff;
+}
