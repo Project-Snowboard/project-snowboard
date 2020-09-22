@@ -136,3 +136,12 @@ h1 {
     color: #efefd0ff;
     text-shadow: 6px 6px 6px rgb(122, 54, 29);
 }
+
+a:link {
+    text-decoration: none;
+    color: #ff6b35ff;
+}
+
+a:visited {
+    color: #ff6b35ff;
+}
