@@ -65,7 +65,8 @@ h1 {
     background-color:#efefd0ff;
     text-align: center;
     font-family: 'Anton', sans-serif;
-    font-size: 12px;
+    border:solid 6px #ff6b35ff;
+    font-size: 50px;
     color: #ff6b35ff;
     padding: 20px;
 }
