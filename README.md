@@ -17,3 +17,11 @@ Domain Modeling:
 - [Whole Site](https://xd.adobe.com/view/39ca740f-7f27-4c74-b68f-e09c859dcac6-6c99/)
 - [Quiz](https://xd.adobe.com/view/659232a9-1dc3-433f-893c-2530071e2d13-30c1/)
 
+let string = JSON.stringify(someArray)
+localStorage.setItem('anyKey', string)
+//Above is setting local storage
+//Below is getting it out of local storage
+let stringReturn = localStorage.getItem('anyKey')
+let parsedSomeArray = JSON.parse(stringReturn)
+//The return loses contextual this, no more prototypes
+//If you need to keep this connection, you would have to run them all back through the constructor function

@@ -89,3 +89,7 @@ a:link {
 a:visited {
     color: #efefd0ff
 }
+
+p {
+    font-size:30px;
+}
