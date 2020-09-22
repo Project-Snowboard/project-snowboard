@@ -61,14 +61,13 @@ h1 {
 
 #b{
     min-width: 950px;
-    min-height:450px;
+    min-height:200px;
     background-color:#efefd0ff;
     text-align: center;
     font-family: 'Anton', sans-serif;
     border:solid 6px #ff6b35ff;
     font-size: 50px;
     color: #ff6b35ff;
-    text-shadow: 6px 6px 6px rgb(122, 54, 29);
 }
 
 #home {
@@ -89,4 +88,57 @@ a:link {
 
 a:visited {
     color: #efefd0ff
+}
+
+#weight {
+    border-radius: 15px;
+    background: #efefd0ff;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    border:solid 6px #ff6b35ff;
+    font-size: 40px;
+    color: #ff6b35ff;
+    box-shadow: 10px 15px 12px -3px rgb(184, 166, 154);
+}
+
+#experience {
+    border-radius: 15px;
+    text-align: center;
+    background: #efefd0ff;
+    font-family: 'Anton', sans-serif;
+    border:solid 6px #ff6b35ff;
+    font-size: 40px;
+    color: #ff6b35ff;
+    box-shadow: 10px 15px 12px -3px rgb(184, 166, 154);
+}
+
+#mountain{
+    border-radius: 15px;
+    text-align: center;
+    background: #efefd0ff;
+    font-family: 'Anton', sans-serif;
+    border:solid 6px #ff6b35ff;
+    font-size: 40px;
+    color: #ff6b35ff;
+    box-shadow: 10px 15px 12px -3px rgb(184, 166, 154);
+}
+#weather {
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    background: #efefd0ff;
+    border:solid 6px #ff6b35ff;
+    font-size: 40px;
+    color: #ff6b35ff;
+    box-shadow: 10px 15px 12px -3px rgb(184, 166, 154);
+}
+#temperature {
+    border-radius: 15px;
+    text-align: center;
+    background: #efefd0ff;
+    font-family: 'Anton', sans-serif;
+    border:solid 6px #ff6b35ff;
+    font-size: 40px;
+    color: #ff6b35ff;
+    box-shadow: 10px 15px 12px -3px rgb(184, 166, 154);
 }
