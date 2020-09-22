@@ -63,12 +63,11 @@ h1 {
     min-width: 950px;
     min-height:450px;
     background-color:#efefd0ff;
-    text-align: center;
+    text-align: justify;
     font-family: 'Anton', sans-serif;
-    border:solid 6px #ff6b35ff;
-    font-size: 50px;
-    color: #ff6b35ff;
-    padding: 20px;
+    font-size: 10px;
+    color: rgb(112, 113, 114);
+    padding: 30px;
 }
 
 #home {
