@@ -68,7 +68,7 @@ h1 {
     border:solid 6px #ff6b35ff;
     font-size: 50px;
     color: #ff6b35ff;
-    text-shadow: 6px 6px 6px rgb(122, 54, 29);
+    padding: 20px;
 }
 
 #home {
