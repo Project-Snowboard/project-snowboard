@@ -1,18 +1,17 @@
 var printHere = document.getElementById("printer");
 var newArray = [];
 
+console.log("test", newArray.join('.'));
+
 function getItBack() {
     newArray = JSON.parse(localStorage.getItem('info'))
-    //  results = newArray;
-    console.log('this', newArray);
 }
 
 
 function printResults() {
-    console.log("results", newArray);
-    printHere.innerHTML = newArray;
+    printHere.innerHTML = newArray.join('.');
     return newArray;
-}
+} 
 
 getItBack();
 printResults();
