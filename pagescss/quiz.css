@@ -167,3 +167,8 @@ a:link {
 a:visited {
 color: #efefd0ff
 }
+
+img {
+    max-width: 400px;
+    max-height: 400px;
+}
