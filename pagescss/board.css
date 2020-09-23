@@ -60,7 +60,7 @@ h1 {
 }
 
 #b{
-    min-width: 950px;
+    min-width: 650px;
     min-height:450px;
     background-color:#efefd0ff;
     text-align: justify;
@@ -91,5 +91,10 @@ a:visited {
 }
 
 p {
-    font-size:30px;
+    font-size:25px;
+}
+
+img {
+    float: left;
+    margin: 25px;
 }
