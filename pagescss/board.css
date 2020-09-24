@@ -1,0 +1,100 @@
+/* CSS HEX
+--orange-crayola: #ff6b35ff;
+--peach-crayola: #f7c59fff;
+--beige: #efefd0ff;
+--usafa-blue: #004e89ff;
+--sapphire-blue: #1a659eff;
+
+font-family: 'Anton', sans-serif;
+
+
+ */
+
+
+
+/* -------------- -----------------------------(((((this box contains all other boxes)))))-------------------------------- */
+
+body {
+    display: flex; 
+    justify-content: center;
+    margin: auto;
+    background: url(../img/left.png) no-repeat fixed bottom left, url(../img/right.png) no-repeat fixed bottom right;
+    background-color: #1a659eff;
+    background-size: 60%;
+}
+
+
+h1 {
+    color: #efefd0ff;
+}
+.container {
+    display: flex; 
+    max-width: 980px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* -------------------------------------------- (((((this box contains all other boxes)))))------------------------------------------------------- */
+
+/* -----------------------------------------------------------------(((header)))---------------------------------------------------------------------- */
+
+.box {
+    min-height: 200px;
+    min-width: 150px;
+    margin: 10px;
+    border-radius: 15px; 
+    box-shadow: 15px 30px 12px -3px rgb(21, 28, 32);
+}
+
+
+/* ------------------------------------------------------- */
+
+
+#a{
+    width: 980px;
+    background-color: #ff6b35ff;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+    border: solid 6px #efefd0ff;
+    text-shadow: 6px 6px 6px rgb(122, 54, 29);
+}
+
+#b{
+    min-width: 650px;
+    min-height:450px;
+    background-color:#efefd0ff;
+    text-align: justify;
+    font-family: 'Anton', sans-serif;
+    font-size: 10px;
+    color: rgb(112, 113, 114);
+    padding: 30px;
+}
+
+#home {
+    font-size:30px;
+    text-align: center;
+    min-width: 950px;
+    position:reletive;
+    background: #ff6b35ff;
+    max-width: 80px;
+    border-radius:15px;
+    border:solid 6px #efefd0ff;
+}
+
+a:link {
+    text-decoration: none;
+    color: #efefd0ff
+}
+
+a:visited {
+    color: #efefd0ff
+}
+
+p {
+    font-size:25px;
+}
+
+img {
+    float: left;
+    margin: 25px;
+}

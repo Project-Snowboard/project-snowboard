@@ -1,0 +1,107 @@
+/* CSS HEX
+--orange-crayola: #ff6b35ff;
+--peach-crayola: #f7c59fff;
+--beige: #efefd0ff;
+--usafa-blue: #004e89ff;
+--sapphire-blue: #1a659eff;
+
+font-family: 'Anton', sans-serif;
+
+
+ */
+
+
+
+/* -------------- -----------------------------(((((this box contains all other boxes)))))-------------------------------- */
+
+body {
+    display: flex; 
+    justify-content: center;
+    margin: auto;
+    background-color: #1a659eff;
+    background-size: cover;
+}
+
+video {
+    width: 107vw;
+    height: 123vh;
+    position: fixed;
+    top: 0;
+    left: -5;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: -1;
+  }
+.viewport-header {
+    position: relative;
+    height: 100vh;
+    text-align: center;
+}
+
+
+h1 {
+    color: #efefd0ff;
+}
+.container {
+    display: flex; 
+    max-width: 980px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* -------------------------------------------- (((((this box contains all other boxes)))))------------------------------------------------------- */
+
+/* -----------------------------------------------------------------(((header)))---------------------------------------------------------------------- */
+
+.box {
+    min-height: 200px;
+    min-width: 150px;
+    margin: 80px;
+    border-radius: 15px; 
+    box-shadow: 15px 30px 12px -3px rgba(45, 51, 54, 0.5);
+}
+
+
+/* ------------------------------------------------------- */
+
+
+#b{
+    min-width: 650px;
+    min-height:450px;
+    background-color:#efefd0ff;
+    font-family: 'Anton', sans-serif;
+    font-size: 10px;
+    color: rgb(73, 73, 73);
+    padding: 30px;
+    background-color: rgba(255, 237, 197, 0.75)
+}
+
+#home {
+    font-size:30px;
+    text-align: center;
+    min-width: 150px;
+    max-height: 45px;
+    background: #ff6b35ff;
+    max-width: 80px;
+    border-radius:15px;
+    border:solid 6px #efefd0ff;
+    padding-top: 6px;
+}
+
+a:link {
+    text-decoration: none;
+    color: #efefd0ff
+}
+
+a:visited {
+    color: #efefd0ff
+}
+
+p {
+    font-size:25px;
+}
+
+img {
+    float: left;
+    margin: 25px;
+    border-radius: 10px;
+}
