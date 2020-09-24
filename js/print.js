@@ -2,7 +2,7 @@ var printHere = document.getElementById("printer");
 var newArray = [];
 
 function getItBack() {
-    newArray = JSON.parse(localStorage.getItem('info'))
+    newArray = JSON.parse(localStorage.getItem('info'));
 }
 
 
