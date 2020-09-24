@@ -26,6 +26,9 @@ body {
 .container {
     display: flex; 
     max-width: 980px;
+    max-height: 2040px;
+    border-radius: 25px;
+    margin:60px;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -66,8 +69,8 @@ img {
 
 .left {
     float: left;
-
 }
+
 
 .right {
     float: right;
@@ -97,4 +100,43 @@ a:link {
 
 a:visited {
     color: #efefd0ff
+}
+
+
+#ashley {
+    animation: slideleft 3s ease-in-out .3s 1 both;
+}
+
+#brendan {
+    animation: slideright 3s ease-in-out .6s 1 both;
+}
+
+#aysia{
+    animation: slideleft 3s ease-in-out .9s 1 both;
+}
+
+#seth {
+    animation: slideright 3s ease-in-out 1.2s 1 both;
+}
+
+
+
+
+
+@keyframes slideleft{
+    0% {
+        transform: skew(12deg) translate(-2000px);
+    }
+    100%{
+        transform:skew(0deg);
+    }
+}
+
+@keyframes slideright{
+    0% {
+        transform: skew(-12deg) translate(2000px);
+    }
+    100%{
+        transform:skew(0deg);
+    }
 }

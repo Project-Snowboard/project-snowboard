@@ -19,15 +19,15 @@ body {
     justify-content: center;
     margin: auto;
     background-color: #1a659eff;
-    background-size: 60%;
+    background-size: cover;
 }
 
 video {
-    width: 100vw;
-    height: 100vh;
+    width: 107vw;
+    height: 123vh;
     position: fixed;
     top: 0;
-    left: 0;
+    left: -5;
     background-position: center;
     background-attachment: fixed;
     z-index: -1;
