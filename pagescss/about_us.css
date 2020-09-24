@@ -104,19 +104,19 @@ a:visited {
 
 
 #ashley {
-    animation: slideleft 3s ease-in-out .3s 1 both;
+    animation: slideright 2s ease-in-out .3s 1 both;
 }
 
 #brendan {
-    animation: slideright 3s ease-in-out .6s 1 both;
+    animation: slideleft 2s ease-in-out .6s 1 both;
 }
 
 #aysia{
-    animation: slideleft 3s ease-in-out .9s 1 both;
+    animation: slideright 2s ease-in-out .9s 1 both;
 }
 
 #seth {
-    animation: slideright 3s ease-in-out 1.2s 1 both;
+    animation: slideleft 2s ease-in-out 1.2s 1 both;
 }
 
 

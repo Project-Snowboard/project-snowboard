@@ -1,8 +1,6 @@
 var printHere = document.getElementById("printer");
 var newArray = [];
 
-console.log("test", newArray.join('.'));
-
 function getItBack() {
     newArray = JSON.parse(localStorage.getItem('info'))
 }
